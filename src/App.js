@@ -45,11 +45,11 @@ function App() {
       {load && <p>Loading data...</p>}
       </form>
       {
-        data && <div className="cardCont">
-        <div className="weather-cards"><h2>Temperature</h2><p>{data.temperature}</p></div>
-        <div className="weather-cards"><h2>Humidity</h2><p>{data.humidity}</p></div>
-        <div className="weather-cards"><h2>Condition</h2><p>{data.condition}</p></div>
-        <div className="weather-cards"><h2>Wind Speed</h2><p>{data.wind}</p></div>
+        data && <div className="weather-cards">
+        <div className="weather-card"><h2>Temperature</h2><p>{data.temperature}</p></div>
+        <div className="weather-card"><h2>Humidity</h2><p>{data.humidity}</p></div>
+        <div className="weather-card"><h2>Condition</h2><p>{data.condition}</p></div>
+        <div className="weather-card"><h2>Wind Speed</h2><p>{data.wind}</p></div>
 
       </div>
       }

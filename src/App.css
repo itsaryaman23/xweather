@@ -23,7 +23,7 @@
   width: 200px;
   
 }
-.weather-cards{
+.weather-card{
   width: 300px;
   height: 150px;
   display: flex;
@@ -33,7 +33,7 @@
   background-color: white;
   box-shadow: #282c34;
 }
-.cardCont{
+.weather-cards{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
